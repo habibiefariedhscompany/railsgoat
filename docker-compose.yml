@@ -9,7 +9,7 @@ services:
   mailcatcher:
     image: schickling/mailcatcher
     ports:
-      - 51080:1080
+      - 1080:1080
   mysql:
     image: mysql:8.0.25
     command: --default-authentication-plugin=mysql_native_password
